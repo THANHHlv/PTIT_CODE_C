@@ -1,0 +1,1 @@
+{"name":"Local: 6025","url":"d:\\ptitcode\\6025.c","tests":[{"id":1710574862823,"input":"3\n45\n789\n100000000000000000000000000001\n99\n123456789012345678901234567890\n1234567890","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\6025.c","group":"local","local":true}

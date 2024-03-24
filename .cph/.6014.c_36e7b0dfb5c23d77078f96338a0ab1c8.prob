@@ -1,0 +1,1 @@
+{"name":"Local: 6014","url":"d:\\ptitcode\\6014.c","tests":[{"id":1709919233313,"input":"4\n2GUYEN VAN NAM        \ntRan           TRUNG hiEU\n      vO le         hOA bINh\nhoang hoang hoang tuan","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\6014.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 6022","url":"d:\\ptitcode\\6022.c","tests":[{"id":1710526174695,"input":"2\nAbc ddd abdc aaa bbb abc ddD XY\naBc\nACHDNC XXXX YYYY ABC ABC XXXX\nXxXx","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\6022.c","group":"local","local":true}

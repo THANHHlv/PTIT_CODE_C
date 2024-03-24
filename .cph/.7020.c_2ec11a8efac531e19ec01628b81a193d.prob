@@ -1,0 +1,1 @@
+{"name":"Local: 7020","url":"d:\\ptitcode\\7020.c","tests":[{"id":1710747785650,"input":"5\nPidgey\n12 36\nIvysaur\n10 50\nCharmander\n12 66\nPikachu\n12 32\nSquirtle\n15 10","output":"14\nIvysaur"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\7020.c","group":"local","local":true}

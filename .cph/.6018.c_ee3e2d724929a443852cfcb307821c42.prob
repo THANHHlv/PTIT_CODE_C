@@ -1,0 +1,1 @@
+{"name":"Local: 6018","url":"d:\\ptitcode\\6018.c","tests":[{"id":1710480118393,"input":"2\nabc ab ab ab abcd\nab abc\naaa xyz ab zzz abc dd dd abc\nxyz dd ttt sas cdc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\6018.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 7022","url":"d:\\ptitcode\\7022.c","tests":[{"id":1711126802508,"input":"1\n2\nnguyen van hai\n8.5 5.5 7.5\ntran van tuan\n8.5 6.5 9.0\n2\n2\ntran van nam\n5.5 6.0 7.0\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode\\7022.c","group":"local","local":true}
