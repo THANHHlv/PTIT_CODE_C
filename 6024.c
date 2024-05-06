@@ -37,7 +37,7 @@ int main()
             nho = temp / 10;
             temp %= 10;
             sum[i] = temp + '0';
-                }
+        }
 
         for (int i = sum[0] == '0' ? 1 : 0; i <= a; i++)
             printf("%c", sum[i]);

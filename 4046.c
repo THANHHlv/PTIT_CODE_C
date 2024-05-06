@@ -1,5 +1,17 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
+#define ll long long
+
+int cmp(const void *a, const void *b)
+{
+    int *x = (int *)a;
+    int *y = (int *)b;
+    if (*x < *y)
+        return -1;
+    return 1;
+}
+
 int main()
 {
     int test;
@@ -8,28 +20,24 @@ int main()
     {
         int n;
         scanf("%d", &n);
-        int a[n + 2];
-        for (int i = 1; i <= n; i++)
+        ll a[n + 2];
+        for (int i = 0; i < n; i++)
         {
-            scanf("%d", &a[i]);
+            scanf("%lld", &a[i]);
         }
-        int min = 1000000, cnt = 0;
-        for (int i = 1; i <= n; i++)
+        qsort(a, n, sizeof(ll), cmp);
+        ll min = 1e9, cnt = 0;
+        for (int i = 1; i < n; i++)
         {
-            for (int j = i + 1; j <= n; j++)
-            {
-                if (min > abs(a[i] - a[j]))
-                    min = abs(a[i] - a[j]);
-            }
+            if (abs(a[i] - a[i - 1]) < min)
+                min = abs(a[i] - a[i - 1]);
         }
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i < n; i++)
         {
-            for (int j = i + 1; j <= n; j++)
-            {
-                if (abs(a[i] - a[j]) == min)
-                    cnt++;
-            }
+
+            if (abs(a[i] - a[i - 1]) == min)
+                cnt++;
         }
-        printf("%d %d\n", min, cnt);
+        printf("%lld %lld\n", min, cnt);
     }
 }

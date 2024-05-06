@@ -1,21 +1,39 @@
 #include <stdio.h>
 #include <string.h>
-
-int check(char c[])
+char s[10000];
+int a[10], b[10];
+int check()
 {
-    int n = strlen(c);
-    for (int i = 0; i <= n / 2; i++)
+    for (int i = 1; i <= 3; i++)
     {
-        if (c[i] != c[n - i - 1])
+        if (a[i] != b[i])
             return 0;
     }
-    return 1;
+    return a[4] % 2 == 0 && b[4] % 2 == 0;
 }
 int main()
 {
-    char s[10000];
     gets(s);
-    if (check(s))
+    for (int i = 0; i < strlen(s); i++)
+    {
+        if (s[i] == '(')
+            a[1]++;
+        else if (s[i] == ')')
+            b[1]++;
+        else if (s[i] == '{')
+            a[2]++;
+        else if (s[i] == '}')
+            b[2]++;
+        else if (s[i] == '[')
+            a[3]++;
+        else if (s[i] == ']')
+            b[3]++;
+        else if (s[i] == '"')
+            a[4]++;
+        else
+            b[4]++;
+    }
+    if (check())
         printf("1");
     else
         printf("0");

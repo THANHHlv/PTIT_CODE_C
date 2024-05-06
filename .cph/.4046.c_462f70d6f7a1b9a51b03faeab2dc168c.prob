@@ -1,0 +1,1 @@
+{"name":"Local: 4046","url":"d:\\ptitcode C\\4046.c","tests":[{"id":1712680318242,"input":"2\n\n4\n\n6 -3 0 4\n\n3\n\n-2 0 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode C\\4046.c","group":"local","local":true}

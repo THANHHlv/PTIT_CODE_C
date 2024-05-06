@@ -1,0 +1,1 @@
+{"name":"Local: 5025","url":"d:\\ptitcode C\\5025.c","tests":[{"id":1714461109163,"input":"1\n3 3\n4 2 6\n3 5 3\n5 7 8","output":"Test 1:\n2 3 4\n3 5 6\n5 7 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ptitcode C\\5025.c","group":"local","local":true}
